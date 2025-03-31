@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crud Application</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+   
+
+      <div class="container">
+        <h1>CRUD Application</h1>
+        
+        <!-- Form for Create and Update -->
+        <div class="form-container">
+            <input type="text" id="itemName" placeholder="Item Name" required>
+            <button onclick="addItem()">Add Item</button>
+        </div>
+
+        <!-- Item List Table -->
+        <table id="itemsTable">
+            <thead>
+                <tr>
+                    <th>Item Name</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Dynamic content will be inserted here -->
+            </tbody>
+        </table>
+    </div>
+      <script src="app.js"></script>
+</body>
+</html>
